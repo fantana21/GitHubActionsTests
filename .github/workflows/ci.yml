@@ -28,5 +28,3 @@ jobs:
         uses: aminya/setup-cpp@v1
         with:
           compiler: clang-${{ matrix.clang-version }}
-          clangtidy: ${{ matrix.clang-version }}
-          clangformat: ${{ matrix.clang-version }}
